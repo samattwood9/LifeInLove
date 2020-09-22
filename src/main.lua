@@ -26,7 +26,7 @@ function love.update(dt)
 
     if state == 1 then
         title.update(width)
-    else
+    elseif state == 2 then
         grid.update(width, height)
         if time > previous_time + 0.5 then
             grid.step(0)
@@ -48,11 +48,17 @@ end
 
 function love.keypressed(pressed_key)
 
-    if pressed_key == "space" then
-        state = 0
+    if pressed_key == "space" then -- restart
+        state = 2
         grid.load(20)
         time = 0
         previous_time = 0
+    elseif pressed_key == "k" then
+        if state == 2 then -- is running, so pause
+            state = 0
+        elseif state == 0 then -- is paused, so start up again
+            state = 2
+        end
     end
     
 end
