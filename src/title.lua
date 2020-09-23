@@ -28,7 +28,7 @@ return function()
         love.graphics.draw(self.title, horizontal_center - (self.title:getWidth()/2), 130)
         love.graphics.draw(self.controls, horizontal_center - (self.controls:getWidth()/2), 260)
         love.graphics.draw(self.space, horizontal_center - (self.space:getWidth()/2), 360)
-        love.graphics.draw(self.k, horizontal_center - (self.k:getWidth()/2), 380)
+        love.graphics.draw(self.k, horizontal_center - (self.k:getWidth()/2), 400)
 
     end
 
