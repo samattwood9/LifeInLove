@@ -48,7 +48,7 @@ return function(x_size, y_size)
                     love.graphics.setColor(0.9, 0.3, 0.6)
                     is_filled = true
                 else
-                    love.graphics.setColor(0.9, 0.9, 0.9, 0.75)
+                    love.graphics.setColor(0.9, 0.9, 0.9)
                     is_filled = false
                 end
 
