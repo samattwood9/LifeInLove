@@ -8,4 +8,4 @@
 
 For getting started with LOVE: https://love2d.org/wiki/Category:Tutorials
 
-For getting started with Life: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+For getting started with Life: https://www.nytimes.com/2020/12/28/science/math-conway-game-of-life.html
